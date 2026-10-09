@@ -28,13 +28,13 @@ Deadlines (Explanatory Notice §8): the obligation applies from **2025-08-02**; 
 `snapshots/YYYY-MM-DD.jsonl` — dated snapshots.
 
 - **2026-10-08** = the issue #1 table (21 providers, all URLs fetched 2026-10-08).
-- **2026-10-09** = corrected view after the 2026-10-09 re-verification pass. Rows upgraded on cross-source evidence carry `url_source: "via aial.ie list (not independently fetched)"` until Pennyforge re-verifies each URL directly. Snapshot 2026-09-01 is a **synthetic** reconstruction (labeled in the file) used to demonstrate the diff mechanism.
+- **2026-10-09** = corrected view after the 2026-10-09 in-lane re-verification pass: 10 providers promoted (OpenAI, Google, Anthropic, Meta, Microsoft, ByteDance, xAI, Tencent, Cohere, Aleph Alpha → **T3**). Headline is now **13 of 21 at T3**. Every row's `url_source` records whether the cited document was fetched directly (verified-direct) or verified via a dated aial.ie archive copy while the live anchor was fetched directly. Snapshot 2026-09-01 is a **synthetic** reconstruction (labeled in the file) used to demonstrate the diff mechanism.
 
-**First real diff (non-synthetic):** `python3 census.py diff snapshots/2026-10-08.jsonl snapshots/2026-10-09.jsonl` — 12 of 21 rows changed in 24 hours (OpenAI, Google, Meta, xAI, Tencent, ByteDance, Anthropic, Cohere, NVIDIA, Mistral, Aleph Alpha, DeepSeek URL correction). This is the drift the tracker exists to catch: provider-level EU summary programs (per-model "EU AI Act Public Summary" PDFs, transparency reports) that sit alongside the thin model-card sections the issue #1 sweep graded.
+**First real diff (non-synthetic):** `python3 census.py diff snapshots/2026-10-08.jsonl snapshots/2026-10-09.jsonl` — 17 of 21 rows changed in 24 hours, including 10 tier promotions to T3. This is the drift the tracker exists to catch: provider-level EU summary programs (per-model "Public Summary of Training Content" PDFs, explicit Art. 53(1)(d) reporting programs) that sit alongside the thin model-card sections the issue #1 sweep graded.
 
 ## Cross-reference source
 
-**AI Accountability Lab — "GPAI Training Transparency"** (<https://aial.ie/research/gpai-training-transparency/>, discovered 2026-10-09): per-model list of discovered Art. 53(1)(d) public summaries with live URLs, dated archives, and A+–F transparency/usefulness grades. Used as a discovery cross-check (not as ground truth) for the 2026-10-09 snapshot; every aial.ie-sourced row is flagged via `url_source` pending independent fetch.
+**AI Accountability Lab — "GPAI Training Transparency"** (<https://aial.ie/research/gpai-training-transparency/>, discovered 2026-10-09): per-model list of discovered Art. 53(1)(d) public summaries with live URLs, dated archives, and A+–F transparency/usefulness grades. Used as a discovery cross-check (not as ground truth) for the 2026-10-09 snapshot; its dated archive copies served as verification substitutes where live URLs were flaky or signed-URL-hosted (Cohere, Tencent, Anthropic, Meta documents). Each row's `url_source` records exactly which route was used.
 
 ## Tool
 
