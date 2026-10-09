@@ -1,0 +1,622 @@
+[
+ {
+  "model": "Baguettotron and Monad",
+  "provider": "Pleias",
+  "slug": "pleias-baguettotron"
+ },
+ {
+  "model": "Pleias 1.0",
+  "provider": "Pleias",
+  "slug": "pleias-pleias"
+ },
+ {
+  "model": "Apertus",
+  "provider": "Swiss AI Initiative",
+  "slug": "swissai-apertus"
+ },
+ {
+  "model": "Luciole Base",
+  "provider": "OpenLLM France",
+  "slug": "openllm-france-luciole-base"
+ },
+ {
+  "model": "FIBO",
+  "provider": "Bria AI",
+  "slug": "bria-fibo"
+ },
+ {
+  "model": "Luciole Instruct 1.1",
+  "provider": "OpenLLM France",
+  "slug": "openllm-france-luciole-instruct1.1"
+ },
+ {
+  "model": "Bria 3.2",
+  "provider": "Bria AI",
+  "slug": "bria-bria"
+ },
+ {
+  "model": "SmolLM3-3B",
+  "provider": "HuggingFace",
+  "slug": "huggingface-smollm3"
+ },
+ {
+  "model": "Domyn Large",
+  "provider": "Domyn",
+  "slug": "domyn-domyn-large"
+ },
+ {
+  "model": "Bielik v3 11B Instruct",
+  "provider": "SpeakLeash",
+  "slug": "speakleash-bielik"
+ },
+ {
+  "model": "PLLuM-12B-base-2512",
+  "provider": "Ministry of Digital Affairs of Poland",
+  "slug": "cyfragolvpl_pllum"
+ },
+ {
+  "model": "Adobe Firefly",
+  "provider": "Adobe",
+  "slug": "adobe-adobe-firefly"
+ },
+ {
+  "model": "Nemotron 3 and 3.5 Family",
+  "provider": "NVIDIA",
+  "slug": "nvidia-nemotron3.5"
+ },
+ {
+  "model": "Inkling",
+  "provider": "Thinking Machines",
+  "slug": "thinking-machines-inkling"
+ },
+ {
+  "model": "Inkling Small",
+  "provider": "Thinking Machines",
+  "slug": "thinking-machines-inkling-small"
+ },
+ {
+  "model": "FLUX.3",
+  "provider": "Black Forest Labs",
+  "slug": "black-forest-labs-flux-3"
+ },
+ {
+  "model": "Nova 2 Lite",
+  "provider": "Amazon",
+  "slug": "amazon-nova-2-lite"
+ },
+ {
+  "model": "Nemotron Nano 12B v2",
+  "provider": "NVIDIA",
+  "slug": "nvidia-nemotron-nano"
+ },
+ {
+  "model": "FastwebMIIA",
+  "provider": "Fastweb",
+  "slug": "fastweb-fastwebmiia"
+ },
+ {
+  "model": "MAI Cyber 1 Flash",
+  "provider": "Microsoft",
+  "slug": "microsoft-mai-cyber-1-flash"
+ },
+ {
+  "model": "MAI Code 1.1 Flash",
+  "provider": "Microsoft",
+  "slug": "microsoft-mai-code-1.1-flash"
+ },
+ {
+  "model": "Minimax M3",
+  "provider": "Minimax",
+  "slug": "minimax-minimax-m3"
+ },
+ {
+  "model": "MAI Code 1 Flash",
+  "provider": "Microsoft",
+  "slug": "microsoft-mai-code-1-flash"
+ },
+ {
+  "model": "MAI-Image-2.5",
+  "provider": "Microsoft",
+  "slug": "microsoft-mai-image-2_5"
+ },
+ {
+  "model": "Ministral 3 14B",
+  "provider": "Mistral AI",
+  "slug": "mistral-ministral-3-14B"
+ },
+ {
+  "model": "Ministral 3 8B",
+  "provider": "Mistral AI",
+  "slug": "mistral-ministral-3-8B"
+ },
+ {
+  "model": "Ministral 3 3B",
+  "provider": "Mistral AI",
+  "slug": "mistral-ministral-3-3B"
+ },
+ {
+  "model": "MAI-Image-2",
+  "provider": "Microsoft",
+  "slug": "microsoft-mai-image-2"
+ },
+ {
+  "model": "Apertus v1.5",
+  "provider": "Swiss AI Initiative",
+  "slug": "swissai-apertus-1-5"
+ },
+ {
+  "model": "GPT-5.6 Luna",
+  "provider": "OpenAI",
+  "slug": "openai-gpt-5-6-luna"
+ },
+ {
+  "model": "GPT-5.5",
+  "provider": "OpenAI",
+  "slug": "openai-gpt-5-5"
+ },
+ {
+  "model": "GPT-6 Astra",
+  "provider": "OpenAI",
+  "slug": "openai-gpt6"
+ },
+ {
+  "model": "GPT-5.2",
+  "provider": "OpenAI",
+  "slug": "openai-gpt-5.2"
+ },
+ {
+  "model": "Grok Voice Think Fast",
+  "provider": "xAI",
+  "slug": "xai-grok-voice-think-fast2.0"
+ },
+ {
+  "model": "Hy3",
+  "provider": "Tencent",
+  "slug": "tencent-hy3"
+ },
+ {
+  "model": "GPT Images 2.0",
+  "provider": "OpenAI",
+  "slug": "openai-gpt-image2"
+ },
+ {
+  "model": "GPT-5.4 Nano",
+  "provider": "OpenAI",
+  "slug": "openai-gpt5.4-nano"
+ },
+ {
+  "model": "Gemma 4",
+  "provider": "Google",
+  "slug": "google-gemma-4"
+ },
+ {
+  "model": "Gemini 3 Pro",
+  "provider": "Google",
+  "slug": "google-gemini-3-pro"
+ },
+ {
+  "model": "Mistral Small 4",
+  "provider": "Mistral AI",
+  "slug": "mistral-mistral-small-4"
+ },
+ {
+  "model": "Mistral Large 3",
+  "provider": "Mistral AI",
+  "slug": "mistral-mistral-large-3"
+ },
+ {
+  "model": "Grok 4.5",
+  "provider": "xAI",
+  "slug": "xai-grok-4.5"
+ },
+ {
+  "model": "Mythos 5.1 / Fable 5.1",
+  "provider": "Anthropic",
+  "slug": "anthropic-mythos5.1"
+ },
+ {
+  "model": "Command A+",
+  "provider": "Cohere",
+  "slug": "cohere-command-a-plus"
+ },
+ {
+  "model": "Claude Opus 5",
+  "provider": "Anthropic",
+  "slug": "anthropic-claude-opus-5"
+ },
+ {
+  "model": "Claude Opus 4.8",
+  "provider": "Anthropic",
+  "slug": "anthropic-claude-opus-4-8"
+ },
+ {
+  "model": "Claude Mythos 5 / Claude Fable 5",
+  "provider": "Anthropic",
+  "slug": "anthropic-claude-mythos-5-fable-5"
+ },
+ {
+  "model": "Claude Mythos Preview",
+  "provider": "Anthropic",
+  "slug": "anthropic-claude-mythos-preview"
+ },
+ {
+  "model": "Claude Sonnet 5",
+  "provider": "Anthropic",
+  "slug": "anthropic-claude-sonnet-5"
+ },
+ {
+  "model": "Claude Opus 4.7",
+  "provider": "Anthropic",
+  "slug": "anthropic-claude-opus-4-7"
+ },
+ {
+  "model": "Muse Image",
+  "provider": "Meta",
+  "slug": "meta-muse-image"
+ },
+ {
+  "model": "Muse Glimmer",
+  "provider": "Meta AI",
+  "slug": "meta-muse-glimmer"
+ },
+ {
+  "model": "Muse Spark",
+  "provider": "Meta",
+  "slug": "meta-muse-spark"
+ },
+ {
+  "model": "Phi 4 Reasoning Vision 15B",
+  "provider": "Microsoft",
+  "slug": "microsoft-phi4-reasoning-vision15b"
+ },
+ {
+  "model": "Seed 2.0 Pro",
+  "provider": "ByteDance",
+  "slug": "bytedance-seed-2.0pro"
+ },
+ {
+  "model": "Seedance 2.5",
+  "provider": "ByteDance",
+  "slug": "bytedance-seedance2.5"
+ },
+ {
+  "model": "Seedance 2.0",
+  "provider": "ByteDance",
+  "slug": "bytedance-seedance2.0"
+ },
+ {
+  "model": "Seedream 5.0 Pro",
+  "provider": "ByteDance",
+  "slug": "bytedance-seedance-5.0pro"
+ },
+ {
+  "model": "Midjourney Image and Video family of models",
+  "provider": "Midjourney",
+  "slug": "midjourney-midjourney"
+ },
+ {
+  "model": "DeepSeek-V4",
+  "provider": "DeepSeek",
+  "slug": "deepseek-deepseek-v4"
+ },
+ {
+  "model": "Phi-4",
+  "provider": "Microsoft",
+  "slug": "microsoft-phi-4"
+ },
+ {
+  "model": "MAI-Image-2.6",
+  "provider": "Microsoft",
+  "slug": "microsoft-mai-image-2_6"
+ },
+ {
+  "model": "Claude Opus 5.5",
+  "provider": "Anthropic",
+  "slug": "anthropic-claude-opus-5-5"
+ },
+ {
+  "model": "Phi-3.5 Vision Instruct",
+  "provider": "Microsoft",
+  "slug": "microsoft-phi-3.5-reasoning"
+ },
+ {
+  "model": "MAI-DS-R1",
+  "provider": "Microsoft",
+  "slug": "microsoft-mai-ds-r1"
+ },
+ {
+  "model": "MAI Thinking 1",
+  "provider": "Microsoft",
+  "slug": "microsoft-mai-thinking-1"
+ },
+ {
+  "model": "Phi-4 Reasoning",
+  "provider": "Microsoft",
+  "slug": "microsoft-phi-4-reasoning"
+ },
+ {
+  "model": "Phi-MoE",
+  "provider": "Microsoft",
+  "slug": "microsoft-phi-moe"
+ },
+ {
+  "model": "ChatGPT Images 2.5 Flare",
+  "provider": "OpenAI",
+  "slug": "openai-gpt-images-2-5"
+ },
+ {
+  "model": "Phi-1.5",
+  "provider": "Microsoft",
+  "slug": "microsoft-phi-1.5"
+ },
+ {
+  "model": "Phi-4 Multimodal Instruct",
+  "provider": "Microsoft",
+  "slug": "microsoft-phi-4-multimodal-instruct"
+ },
+ {
+  "model": "Phi-1",
+  "provider": "Microsoft",
+  "slug": "microsoft-phi-1"
+ },
+ {
+  "model": "Phi-2",
+  "provider": "Microsoft",
+  "slug": "microsoft-phi-2"
+ },
+ {
+  "model": "Magma-8B",
+  "provider": "Microsoft",
+  "slug": "microsoft-magma-8b"
+ },
+ {
+  "model": "Phi-3",
+  "provider": "Microsoft",
+  "slug": "microsoft-phi-3"
+ },
+ {
+  "model": "Minimax H3",
+  "provider": "Minimax",
+  "slug": "minimax-minimax-h3"
+ },
+ {
+  "model": "Phi-4 Mini Instruct",
+  "provider": "Microsoft",
+  "slug": "microsoft-phi-4-mini-instruct"
+ },
+ {
+  "model": "PLLuM-12B-instruct-2512",
+  "provider": "Ministry of Digital Affairs of Poland",
+  "slug": "cyfragolvpl_pllum-instruct"
+ },
+ {
+  "model": "Granite 4.1 Vision",
+  "provider": "IBM",
+  "slug": "ibm-granite-vision-4-1"
+ },
+ {
+  "model": "DiffusionGemma 26B A4B IT",
+  "provider": "Google",
+  "slug": "google-diffusiongemma"
+ },
+ {
+  "model": "Gemini Robotics 1.5",
+  "provider": "Google",
+  "slug": "google-gemini-robotics-1.5"
+ },
+ {
+  "model": "Gemini 3.5 Flash Cyber",
+  "provider": "Google",
+  "slug": "google-gemini-3.5-flash-cyber"
+ },
+ {
+  "model": "Veo 3.1",
+  "provider": "Google",
+  "slug": "veo-3-1"
+ },
+ {
+  "model": "Gemini Omni",
+  "provider": "Google",
+  "slug": "google-gemini-omni"
+ },
+ {
+  "model": "Nova 2 Sonic",
+  "provider": "Amazon",
+  "slug": "amazon-nova-2-sonic"
+ },
+ {
+  "model": "Devstral Small",
+  "provider": "Mistral",
+  "slug": "mistral-devstral-small"
+ },
+ {
+  "model": "Gemini Flash 3.1 Lite",
+  "provider": "Google",
+  "slug": "google-gemini-flash-3.1-lite"
+ },
+ {
+  "model": "North Mini Code 1.0",
+  "provider": "Cohere",
+  "slug": "cohere-north-mini-code"
+ },
+ {
+  "model": "Gemini 3.6 Flash",
+  "provider": "Google",
+  "slug": "google-gemini-3.6-flash"
+ },
+ {
+  "model": "Gemini 2.5 Flash Image",
+  "provider": "Google",
+  "slug": "google-gemini-2.5-flash-image"
+ },
+ {
+  "model": "Claude Opus 4.6",
+  "provider": "Anthropic",
+  "slug": "anthropic-claude-opus-4-6"
+ },
+ {
+  "model": "FLUX.2 [max]",
+  "provider": "Black Forest Labs",
+  "slug": "black-forest-labs-flux-2-max"
+ },
+ {
+  "model": "Velvet 2B Speech",
+  "provider": "Almawave",
+  "slug": "almawave-velvet-2b-speech"
+ },
+ {
+  "model": "FLUX.2 [pro]",
+  "provider": "Black Forest Labs",
+  "slug": "black-forest-labs-flux-2-pro"
+ },
+ {
+  "model": "Gemini Robotics ER 1.5",
+  "provider": "Google",
+  "slug": "google-gemini-robotics-er-1.5"
+ },
+ {
+  "model": "GPT-5.6 Terra",
+  "provider": "OpenAI",
+  "slug": "openai-gpt-5-6-terra"
+ },
+ {
+  "model": "Palmyra X6",
+  "provider": "WRITER",
+  "slug": "writer-palmyra-x6"
+ },
+ {
+  "model": "FLUX.2 Klein",
+  "provider": "Black Forest Labs",
+  "slug": "black-forest-labs-flux-2-klein"
+ },
+ {
+  "model": "Devstral 2",
+  "provider": "Mistral",
+  "slug": "mistral-devstral-2"
+ },
+ {
+  "model": "Claude Sonnet 4.5",
+  "provider": "Anthropic",
+  "slug": "anthropic-claude-sonnet-4-5"
+ },
+ {
+  "model": "Imagen 4 Fast",
+  "provider": "Google",
+  "slug": "google-imagen-4-fast"
+ },
+ {
+  "model": "Claude Opus 4.5",
+  "provider": "Anthropic",
+  "slug": "anthropic-claude-opus-4-5"
+ },
+ {
+  "model": "Velvet 25B",
+  "provider": "Almawave",
+  "slug": "almawave-velvet-25b"
+ },
+ {
+  "model": "FLUX.2 [dev]",
+  "provider": "Black Forest Labs",
+  "slug": "black-forest-labs-flux-2-dev"
+ },
+ {
+  "model": "VITRA",
+  "provider": "Microsoft",
+  "slug": "microsoft-vitra"
+ },
+ {
+  "model": "Granite 4.2",
+  "provider": "IBM",
+  "slug": "ibm-granite-4-2"
+ },
+ {
+  "model": "GPT-5.6 Sol",
+  "provider": "OpenAI",
+  "slug": "openai-gpt-5-6-sol"
+ },
+ {
+  "model": "Apriel 1.5 15B Thinker",
+  "provider": "ServiceNow",
+  "slug": "servicenow-apriel-1-5"
+ },
+ {
+  "model": "Claude Opus 4.1",
+  "provider": "Anthropic",
+  "slug": "anthropic-claude-opus-4-1"
+ },
+ {
+  "model": "GPT-OSS",
+  "provider": "OpenAI",
+  "slug": "openai-gpt-oss"
+ },
+ {
+  "model": "Sora 2",
+  "provider": "OpenAI",
+  "slug": "openai-sora-2"
+ },
+ {
+  "model": "Gemini Robotics ER 1.6",
+  "provider": "Google",
+  "slug": "google-gemini-robotics-er-1.6"
+ },
+ {
+  "model": "Gemini 3.7 Flash",
+  "provider": "Google",
+  "slug": "google-gemini-3.7-flash"
+ },
+ {
+  "model": "Gemini Robotics ER 2",
+  "provider": "Google",
+  "slug": "google-gemini-robotics-er-2"
+ },
+ {
+  "model": "FIBO 1.5",
+  "provider": "Bria AI",
+  "slug": "bria-fibo-1.5"
+ },
+ {
+  "model": "Granite 4.1",
+  "provider": "IBM",
+  "slug": "ibm-granite-4-1"
+ },
+ {
+  "model": "Granite 4.0 H",
+  "provider": "IBM",
+  "slug": "ibm-granite-4-0-h"
+ },
+ {
+  "model": "Palmyra X5",
+  "provider": "WRITER",
+  "slug": "writer-palmyra-x5"
+ },
+ {
+  "model": "Velvet 2B 1.5",
+  "provider": "Almawave",
+  "slug": "almawave-velvet-2b-1.5"
+ },
+ {
+  "model": "Claude Sonnet 4.6",
+  "provider": "Anthropic",
+  "slug": "anthropic-claude-sonnet-4-6"
+ },
+ {
+  "model": "Gemini 3.5 Flash Lite",
+  "provider": "Google",
+  "slug": "google-gemini-3.5-flash-lite"
+ },
+ {
+  "model": "Tiny Aya Base",
+  "provider": "Cohere",
+  "slug": "cohere-tiny-aya-base"
+ },
+ {
+  "model": "North Micro Vision Instruct",
+  "provider": "Cohere",
+  "slug": "cohere-north-micro-vision-instruct"
+ },
+ {
+  "model": "Claude Haiku 4.5",
+  "provider": "Anthropic",
+  "slug": "anthropic-claude-haiku-4-5"
+ }
+]
