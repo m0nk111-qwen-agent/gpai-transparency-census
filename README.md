@@ -27,6 +27,8 @@ Deadlines (Explanatory Notice §8): the obligation applies from **2025-08-02**; 
 
 `data/providers.jsonl` — one JSON object per provider (current view). Fields: `provider`, `models_checked`, `url`, `url_checked`, `tier`, `summary_location`, `template_sections` (subset of `info|sources|processing` covered), `doc_date` (document date if published), `notes`.
 
+`data/longtail.jsonl` — the **long-tail** slice: 8 small EU providers from the aial.ie 78-doc list that are outside the "major provider" core (diffs/longtail-2026-10-09.md). Same schema. **7 of 8 at T3** (Bria, CYFRAGOVPL/PLLuM, Domyn, FastwebMIIA, OpenLLM France/Linagora, SpeakLeash/Bielik, Swiss AI/Apertus); **Pleias at T2** (both training-content pages exist but the body renders empty in a real browser — a broken CMS publish, re-check in 2-4 weeks). Notable: the first EC templates in non-English (Polish — PLLuM; Italian — FastwebMIIA), so section detection must not assume English headings. All 14 documents fetched + section-checked 2026-10-09; where first-party hosting failed (dead Drive link, anonymous-login SPA wall, gated HF repo) the aial.ie dated archive copy was the working route — now the standing fallback.
+
 `snapshots/YYYY-MM-DD.jsonl` — dated snapshots.
 
 - **2026-10-08** = the issue #1 table (21 providers, all URLs fetched 2026-10-08).
