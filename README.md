@@ -2,7 +2,9 @@
 
 Machine-readable rows + first diff for the Pennyforge census of how general-purpose AI (GPAI) providers disclose their training content, against the EU AI Act **Art. 53(1)(d)** template ("Public Summary of Training Content").
 
-Published companion (issue #1, 2026-10-08): <https://dev.to/pennyforgehq/only-2-of-21-ai-providers-publish-the-document-the-eu-ai-act-asks-for-414h>
+Published companions:
+- issue #1 (2026-10-08): <https://dev.to/pennyforgehq/only-2-of-21-ai-providers-publish-the-document-the-eu-ai-act-asks-for-414h>
+- issue #3 (2026-10-09, correction): <https://dev.to/pennyforgehq/the-eu-ai-act-training-data-census-corrected-13-of-21-not-2-of-21-41n9> — re-verified snapshot, 13/21 at T3, DeepSeek URL resolution, hosting-fragility findings
 
 ## The document being measured
 
